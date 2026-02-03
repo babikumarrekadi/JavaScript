@@ -42,17 +42,34 @@ console.log(nam.description)
 // These store multiple values or complex data.
 
 // Object type:         Stores data in key–value pairs
-// let emp={
-//     id:2526,
-//     clgName:"Andhra university",
-//     location:"Vizag",
-//     open:true
-// }
-// console.log(Object.keys(emp))
-// console.log(emp.id)
-// console.log(emp.clgName)
-// console.log(emp.location)
-// console.log(emp.open)
+let emp={
+    id:2526,
+    clgName:"Andhra university",
+    location:"Vizag",
+    open:true
+}
+console.log(emp);
+
+console.log(Object.values(emp));
+console.log(emp.id)
+console.log(emp.clgName)
+console.log(emp.location)
+console.log(emp.open)
+
+console.log(Object.keys(emp));
+console.log(Object.keys(emp)[0]);
+console.log(Object.keys(emp)[1]);
+console.log(Object.keys(emp)[2]);
+console.log(Object.keys(emp)[3]);
+
+console.log(Object.values(emp)[0]);
+console.log(Object.values(emp)[1]);
+console.log(Object.values(emp)[2]);
+console.log(Object.values(emp)[3]);
+
+
+
+
 
 //Array Type:       Used to store multiple values of different data type
 let score=[11,true,"babi",'kumar',50,34]
@@ -60,13 +77,3 @@ console.log(score[0])
 console.log(score[1])
 console.log(score[2])
 console.log(score[3])
-
-
-
-let emp={
-    id:2526,
-    clgName:"Andhra university",
-    location:"Vizag",
-    open:true
-}
-console.log(Object.keys(emp))
