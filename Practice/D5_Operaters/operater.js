@@ -122,6 +122,27 @@ alert(value1+value2)
 console.log(value1+value2);
 
 
+//  Type casting:
+// two types:    
+//     1. Implicit Type Casting (Type Coercion)
+//     2.  Explicit Type Casting
+
+
+// 1.  Implicit Type Casting (Type Coercion)
+//       Here JavaScript converts types by itself.
+
+console.log('10'+2);
+console.log(+'10'+2);
+console.log(10+ +'20'+ +'10');
+console.log(10+10*2+ +'5');
+
+//  2.  Explicit Type Casting
+//      You convert datatype manually using functions.
+
+let value11 = Number('100')
+   value2  = Number(2)
+console.log(value11+value2);
+
 
 
 
