@@ -1,24 +1,10 @@
-let lang = ["tamil", "hindi", "english", "physis", "maths", "science", "social", "chemistry", "bilogy", "zoology"]
-
-for (let i = 0; i < lang.length; i++) {
-
-    
-
-    document.body.innerHTML += `
-
-        <div id="card">
-        
+// for row in range(1,6):
+//     print('  '*(5-row)+'* '*((row*2)-1))
 
 
-        <table border="1" style="border-collapse: collapse;">
-    <th>${lang[i].toUpperCase()}</th>
-    <tr><td><img src="../Assets/download.jpeg" alt="" width="200px" height="175px"></td><br></tr>
-    <tr><td>${lang[i].toUpperCase()} is a Language  </td></tr>
-
-</table>
-
-        </div>
-
-    `
-
+for (let i = 1; i <= 5; i++) {
+    document.body.innerHTML += 
+        " ".repeat(5 - i) + " * ".repeat((i * 2) - 1) + "<br>";
 }
+
+

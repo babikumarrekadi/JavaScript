@@ -11,3 +11,4 @@ let lang = ["tamil", "hindi", "english", "physis", "maths", "science", "social",
 // for(let i=1;i<=20;i++){
 //      document.body.innerHTML+=`${num} * ${i} = ${num*i} <br>`;
 // }
+
