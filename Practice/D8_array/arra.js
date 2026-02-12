@@ -38,7 +38,7 @@ console.log(mobiles);
 
 // ➤ forEach() – Just loop
 
-// ➤ map() – Creates new array
+// ➤ map() – Creat788es new array
 
 // ➤ filter() – Filters based on condition
 
